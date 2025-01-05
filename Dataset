@@ -1,17 +1,17 @@
-# Dataset Folder
+# 📁 Dataset Folder
 
-## Description
-This folder contains the sales dataset used for SQL-based analysis in this project. The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/noeyislearning/sales-simulation/) and includes records simulating a retail sales environment.
+## 📝 Description
+This folder contains the sales dataset used for SQL-based analysis in this project. The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/noeyislearning/sales-simulation/) and includes[...]
 
-## Files
-1. **sales_data.csv**:  
+## 📂 Files
+1. **📊 sales_data.csv**:  
    - The raw dataset as downloaded from Kaggle.  
    - Format: CSV  
    - Size: This dataset has 382,423 rows and 37 columns.  
 
-2. **cleaned_sales_data.csv** (if applicable):  
+2. **🧹 cleaned_sales_data.csv** (if applicable):  
    - Preprocessed dataset used for analysis.
 
-## Source
+## 🌐 Source
 - Kaggle Dataset: [Link to the Kaggle page](https://www.kaggle.com/datasets/noeyislearning/sales-simulation/)  
 - Ensure proper attribution to Kaggle if required.
