@@ -59,7 +59,7 @@ The analysis is organized into the following sections:
 1. Clone this repository:
    ```bash
   
-    https://github.com/Noob-Py-Developer/Sales_Sim_SQL
+    https://github.com/Noob-Py-Developer/Project-Sales_Analysis_SQL
   
    ```
 
