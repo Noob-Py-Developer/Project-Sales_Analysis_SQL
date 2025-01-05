@@ -24,7 +24,35 @@ This folder contains SQL scripts for analyzing the sales dataset and deriving ac
    - Calculate average customer ratings by product category.
    - Investigate the relationship between delivery time and ratings.
 
-
 ---
+
+# 👥 Demographics Analysis (`demographics_analysis.sql`):
+
+
+-- **1. Distribution of customers by age, gender, and country.**
+
+SELECT age, sex, COUNT(*) AS customer_total
+FROM sales
+GROUP BY age, sex, country
+ORDER BY sex, age;
+
+-- **2. Analyze gender-based spending trends.**
+
+SELECT sex, 
+       COUNT(*) AS customer_count, 
+       ROUND(SUM(total_purchase_after_discount), 2) AS total_spent,
+       ROUND(AVG(total_purchase_after_discount), 2) AS avg_spent
+FROM sales_sim.sales
+GROUP BY sex
+ORDER BY total_spent DESC;
+
+-- **3. Age distribution and purchasing behavior of customers.**
+
+SELECT age, 
+       COUNT(*) AS customer_count, 
+       round(Avg(total_purchase_after_discount), 2) AS avg_purchase
+FROM sales_sim.sales
+GROUP BY age
+ORDER BY age ASC;
 
 
