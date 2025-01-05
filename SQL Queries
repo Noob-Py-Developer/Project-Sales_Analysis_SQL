@@ -1,0 +1,30 @@
+# 📂 SQL Queries
+
+This folder contains SQL scripts for analyzing the sales dataset and deriving actionable insights. Each script focuses on a specific aspect of the data to answer key business questions.
+
+## 📄 Queries Included
+
+1. **👥 Demographics Analysis (`demographics_analysis.sql`)**:
+   - Understand the age distribution and purchasing behavior of customers.
+   - Analyze gender-based spending trends.
+
+2. **🎖️ Loyalty Program Analysis (`loyalty_program_analysis.sql`)**:
+   - Compare spending habits of loyalty vs. non-loyalty program members.
+   - Examine the distribution of loyalty tiers and their impact on discounts.
+
+3. **📈 Sales Performance Analysis (`sales_performance_analysis.sql`)**:
+   - Identify top-selling product categories.
+   - Analyze payment method preferences.
+
+4. **🚚 Shipping Analysis (`shipping_analysis.sql`)**:
+   - Evaluate average delivery time for different shipping methods.
+   - Examine the correlation between shipping costs and delivery speed.
+
+5. **🌟 Customer Experience Analysis (`customer_experience_analysis.sql`)**:
+   - Calculate average customer ratings by product category.
+   - Investigate the relationship between delivery time and ratings.
+
+
+---
+
+
