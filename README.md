@@ -58,7 +58,9 @@ The analysis is organized into the following sections:
 
 1. Clone this repository:
    ```bash
-  https://github.com/Noob-Py-Developer/Sales_Sim_SQL
+  
+    https://github.com/Noob-Py-Developer/Sales_Sim_SQL
+  
    ```
 
 2. Load the dataset into a 🛠️ database management system (e.g., MySQL, PostgreSQL).
